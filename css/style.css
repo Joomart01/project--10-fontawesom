@@ -1,0 +1,76 @@
+
+
+.icon:nth-child(1) {
+    font-size: 350px;
+    color: darkred;
+    animation:anim 6s normal infinite;
+
+}
+@keyframes anim {
+from {
+ transform: translateX(0px) translateY(0);
+
+}
+30% {
+  transform: translateX(1200px) rotate(90deg);
+}
+ 50%{
+     transform: translateX(1200px) translateY(380px) rotate(90deg);
+ }
+80%{
+    transform: translateX(0px) translateY(380px) rotate(360deg);
+}
+
+ to {
+  transform: translateX(0px) translateY(0) rotate(360deg);
+ }
+}
+
+.icon:nth-child(3) {
+    font-size: 350px;
+    color: blue;
+}
+
+
+.icon:nth-child(3){
+    font-size: 350px;
+    color: darkkhaki;
+
+}
+.icon:nth-child(4) {
+   font-size:350px ;
+    color: chartreuse;
+
+}
+.icon{
+    position: absolute;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
